@@ -15,7 +15,8 @@ spring:
 # mongodb 属性配置
   data:
     mongodb:
-      uri: mongodb://admin:admin@192.168.80.134:27017/mongodbdemo
+      uri: mongodb://test:test@10.20.69.119:27017/?authSource=admin&authMechanism=SCRAM-SHA-1
+      database: forcast
 #集群配置 spring.data.mongodb.uri=mongodb://user:pwd@ip1:port1,ip2:port2/database
 #####################################################################################################
 #########mysql######### 注释先不用这些属性

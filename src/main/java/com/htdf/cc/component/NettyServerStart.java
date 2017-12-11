@@ -26,7 +26,7 @@ public class NettyServerStart implements CommandLineRunner
 	public void run(String... arg0) throws Exception
 	{
 		Logger.info(">>>>>>>>>>>>>>>服务启动执行，执行nettyserver启动 <<<<<<<<<<<<<");
-		new NettyServer().bind(NettyServer.FILE_PORT);
+		//new NettyServer().bind(NettyServer.FILE_PORT);
 	}
 	
 }
