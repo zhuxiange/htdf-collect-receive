@@ -17,6 +17,10 @@ spring:
     mongodb:
       uri: mongodb://test:test@10.20.69.119:27017/?authSource=admin&authMechanism=SCRAM-SHA-1
       database: forcast
+  activemq:
+    broker-url: tcp://192.168.0.139:61616?jms.blobTransferPolicy.defaultUploadUrl=http://192.168.0.139:8161/fileserver/
+    user: admin
+    password: admin
 #集群配置 spring.data.mongodb.uri=mongodb://user:pwd@ip1:port1,ip2:port2/database
 #####################################################################################################
 #########mysql######### 注释先不用这些属性
